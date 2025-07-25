@@ -2,7 +2,7 @@ import telebot
 
 from telebot import types
 
-bot = telebot.TeleBot('7852553113:AAFLGaJ0Hha5FFgctIKu5cirqCOqZRn1R8E')
+bot = telebot.TeleBot('TOKEN')
 
 menu = types.ReplyKeyboardMarkup(resize_keyboard=True)
 answer = types.KeyboardButton("Ответ")
